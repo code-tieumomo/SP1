@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Creepster&family=Dancing+Script&family=Quicksand:wght@400&family=Staatliches&display=swap");
+body {
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #171010;
+}
+
+.navbar-brand {
+    /* font-family: 'Staatliches', cursive; */
+    font-family: "Creepster", cursive;
+
+    font-size: 32px;
+    letter-spacing: 2px;
+    color: #ea1d1d;
+}
+
+.nav-link {
+    color: #fff;
+    font-family: "Quicksand", sans-serif;
+    margin: 0px 10px;
+}
+
+.title {
+    font-family: "Quicksand", sans-serif;
+    font-weight: 1000;
+    font-size: 32px;
+    margin: 50px 0;
+    color: #999392;
+}
+
+.movie-selection-container {
+    width: 100%;
+    height: auto;
+    background-color: #171010;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 5% 10% 0% 10%;
+}
+
+.movie-selection-content {
+    display: flex;
+    width: 44%;
+    height: 50vw;
+    background-color: #291a1a;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 20px;
+    border-radius: 20px;
+}
+.movie-selection-content:hover {
+    box-shadow: 0 8px 16px 0 rgba(143, 142, 142, 0.2);
+    cursor: pointer;
+}
+
+.movie-selection-poster {
+    width: 50%;
+    height: auto;
+    /* margin-top: 30px; */
+    border-radius: 6%;
+}
+
+.movie-selection-details-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.movie-selection-details {
+    display: flexbox;
+    height: 17.5vw;
+    /* padding: 3% 5% ; */
+    font-size: 1.2vw;
+    /* background-color: rgb(92, 59, 59); */
+    color: #fff;
+    font-family: "Quicksand", sans-serif;
+    background-size: cover;
+}
+.title-container {
+    text-align: center;
+}
+.play-button {
+    text-align: center;
+    text-decoration: none;
+    background-color: whitesmoke;
+    padding: 3% 10%;
+    width: 30%;
+    display: block;
+    margin: 0 auto;
+    border-radius: 10px;
+    font-weight: bold;
+}
+.navbar-nav {
+    width: 100%;
+    justify-content: flex-end;
+    align-items: center;
+}

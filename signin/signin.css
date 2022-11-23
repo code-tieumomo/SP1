@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Creepster&family=Dancing+Script&family=Quicksand:wght@400&family=Staatliches&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #362222;
+    justify-self: center;
+    align-items: center;
+}
+/* 
+p  {
+    font-family: 'Quicksand', sans-serif;
+} */
+
+.nav-link {
+    color:#fff;
+    font-family: 'Quicksand', sans-serif;
+    margin: 0px 10px;
+    font-size: 15px;
+}
+
+.navbar-brand {
+    font-family: 'Major Mono Display', monospace;
+    font-size: 23px;
+    letter-spacing: 2px;
+    color: #ea1d1d;
+    text-decoration: none;
+}
+
+.halloween-decor {
+    width: 2.5%;
+    margin-right: 5px;
+}
+
+.login-box {
+    margin: 16% auto 0px;
+    width: 30%;
+    height: auto;
+    background-color: #423F3E;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-self: center;
+    border-radius: 4%;
+    padding: 30px;
+}
+
+.sign-in-link {
+    margin: 10px 0px;
+    font-size: 1.2vw;
+}
+
+#login-btn {
+    font-size: 1.4vw;
+    border-radius: 20px;
+    padding: 4px  12px;
+    font-family: 'Quicksand', sans-serif;
+    border: none;
+
+}
+
+.title {
+    color: #ffffff;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 3vw;
+}
+
+#email-input {
+    width: 100%;
+    padding: 6px 12px;
+    border-radius:  40px ;
+    border: none;
+    margin: 10px 0;
+    font-size: 1.2vw;
+
+}
+
+#password-input {
+    width: 100%;
+    padding: 6px 12px;
+    border-radius: 40px ;
+    border: none;
+    margin: 10px 0;
+    font-size: 1.2vw;
+}

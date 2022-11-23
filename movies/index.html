@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Movies</title>
+    <link rel="stylesheet" href="./index.css">
+    <link rel="stylesheet" href="./video-js.min.css">
+    <link rel="stylesheet" href="./main.css">
+    <style>
+        .modal-backdrop.show {
+            z-index: 0
+        }
+
+        @media (min-width: 576px) {
+            .modal-dialog {
+                max-width: 892px;
+                margin: 30px auto;
+            }
+
+            .modal-sm {
+                max-width: 300px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg bg-dark">
+        <div class="container-fluid">
+            <img class="halloween-decor" src="./images/logo.icon/witch-hat.png" alt="">
+            <a class="navbar-brand" href="./../index.html">
+                B3CX Movies
+            </a>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="./../index.html"
+                            style="color:#fff;font-family: 'Quicksand', sans-serif;">Home</a>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./../TV Series/tvseries.html">TV Series</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./../new/new.html">New & Popular</a>
+                    </li>
+                    </li>
+                    <li class="nav-item item-login">
+                        <a class="nav-link" href="./../signin/signin.html">Log in</a>
+                    </li>
+                    <li class="nav-item item-signup">
+                        <a class="nav-link" href="./../Signup/signup.html">Sign up</a>
+                    </li>
+                    <li class="nav-item item-logout">
+                        <a class="nav-link" href="#">Logout</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container-fluid">
+        <div class="row">
+            <main role="main" class="main">
+                <div class="cast-container" style="background-image: url(images/movie-detail/movie-detail-1.jpg)">
+                    <div class="cast-wrap d-flex movie-wrap">
+
+                        <div class="movie-watching">
+
+                            <video id="movie_watch" class="video-js vjs-default-skin vjs-big-play-centered" controls
+                                preload="none" width="896" height="504" poster="images/movie-detail/movie-detail-1.jpg"
+                                data-setup="{}" autoplay>
+                                <source src="./video.mp4" type="video/mp4">
+                                <p class="vjs-no-js">To view this video please enable JavaScript, and consider upgrading
+                                    to a web browser that <a href="http://videojs.com/html5-video-support/"
+                                        target="_blank">supports HTML5 video</a></p>
+                            </video>
+
+                            <h2 class="movie-watching__title"><a href="movie-detail.html">Liên minh công lý - Justice
+                                    League - 2017</a></h2>
+                            <div class="movie-watching__view-count">
+                                <span>104.574</span> lượt xem
+                            </div>
+                        </div>
+                        <!-- /.movie-watching -->
+
+                    </div>
+                </div>
+
+                <div class="container-fluid pading-md">
+
+                    <section class="wrap">
+
+                        <div class="container">
+                            <div class="row">
+                                <div class="comments-container">
+                                    <h3>Bình luận về phim</h3>
+
+                                    <ul id="comments-list" class="comments-list">
+                                        <li>
+                                            <div class="comment-main-level">
+                                                <!-- Avatar -->
+                                                <div class="comment-avatar"><img
+                                                        src="../images/avatar/avatar-1-chieu-lai-poster.jpg" alt="">
+                                                </div>
+                                                <!-- Comment Container -->
+                                                <div class="comment-box">
+                                                    <div class="comment-head">
+                                                        <h6 class="comment-name"><a href="#">Văn Tám</a></h6>
+                                                        <span>20 phút trước</span>
+                                                    </div>
+                                                    <div class="comment-content">
+                                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit
+                                                        omnis animi et iure laudantium vitae, praesentium optio,
+                                                        sapiente distinctio illo?
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- Comments responses -->
+                                            <ul class="comments-list reply-list">
+                                                <li>
+                                                    <!-- Avatar -->
+                                                    <div class="comment-avatar"><img src="../images/avatar/avatar-2.jpg"
+                                                            alt=""></div>
+                                                    <!-- Comment Container -->
+                                                    <div class="comment-box">
+                                                        <div class="comment-head">
+                                                            <h6 class="comment-name"><a href="#">Khánh Linh</a></h6>
+                                                            <span>10 phút trước</span>
+                                                        </div>
+                                                        <div class="comment-content">
+                                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                                            Velit omnis animi et iure laudantium vitae, praesentium
+                                                            optio, sapiente distinctio illo?
+                                                        </div>
+                                                    </div>
+                                                </li>
+
+                                                <li>
+                                                    <!-- Avatar -->
+                                                    <div class="comment-avatar"><img
+                                                            src="../images/avatar/avatar-1-chieu-lai-poster.jpg" alt="">
+                                                    </div>
+                                                    <!-- Comment Container -->
+                                                    <div class="comment-box">
+                                                        <div class="comment-head">
+                                                            <h6 class="comment-name"><a href="#">Văn Tám</a></h6>
+                                                            <span>10 phút trước</span>
+                                                        </div>
+                                                        <div class="comment-content">
+                                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                                            Velit omnis animi et iure laudantium vitae, praesentium
+                                                            optio, sapiente distinctio illo?
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                            </ul>
+                                        </li>
+
+                                        <li>
+                                            <div class="comment-main-level">
+                                                <!-- Avatar -->
+                                                <div class="comment-avatar"><img
+                                                        src="../images/avatar/avatar-1-chieu-lai-poster.jpg" alt="">
+                                                </div>
+                                                <!-- Comment Container -->
+                                                <div class="comment-box">
+                                                    <div class="comment-head">
+                                                        <h6 class="comment-name"><a href="#">Khánh Linh</a></h6>
+                                                        <span>10 phút trước</span>
+
+                                                    </div>
+                                                    <div class="comment-content">
+                                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit
+                                                        omnis animi et iure laudantium vitae, praesentium optio,
+                                                        sapiente distinctio illo?
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                    </section>
+
+                    <section class="wrap">
+
+                        <div class="wrap-heading">
+                            <h2 class="wrap-heading__title"><a href="list-movies.html">Phim liên quan</a></h2>
+                        </div>
+                        <!-- /.wrap-heading -->
+
+                        <div class="row knowfor">
+                            <div class="col-md-3">
+                                <div class="card bg-dark text-white">
+                                    <a href="index.html">
+                                        <img class="card-img" src="../images/poster/jujutsukaisen.webp"
+                                            alt="Wonder Woman">
+                                    </a>
+                                    <div class="card-img-overlay">
+                                        <h4 class="card-title"><a href="#">Wonder Woman</a></h4>
+                                        <p class="card-text card-year">2017</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- / item 1 -->
+                            <div class="col-md-3">
+                                <div class="card bg-dark text-white">
+                                    <a href="index.html">
+                                        <img class="card-img" src="../images/poster/batman-poster.jpeg"
+                                            alt="Batman v Superman">
+                                    </a>
+                                    <div class="card-img-overlay">
+                                        <h4 class="card-title"><a href="#">Batman v Superman</a></h4>
+                                        <p class="card-text card-year">2016</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- / item 2 -->
+                            <div class="col-md-3">
+                                <div class="card bg-dark text-white">
+                                    <a href="index.html">
+                                        <img class="card-img" src="../images/poster/Bridgerton-Season-2-Poster.webp"
+                                            alt="Suicide Squad">
+                                    </a>
+                                    <div class="card-img-overlay">
+                                        <h4 class="card-title"><a href="#">Suicide Squad</a></h4>
+                                        <p class="card-text card-year">2016</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- / item 3 -->
+                            <div class="col-md-3">
+                                <div class="card bg-dark text-white">
+                                    <a href="index.html">
+                                        <img class="card-img" src="../images/poster/demonslayer.jpg" alt="Man of steel">
+                                    </a>
+                                    <div class="card-img-overlay">
+                                        <h4 class="card-title"><a href="#">Man of steel</a></h4>
+                                        <p class="card-text card-year">2014</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- / item 3 -->
+                        </div>
+                    </section>
+                    <!-- /.section -->
+                </div>
+            </main>
+        </div>
+    </div>
+
+    <script src="./../index.js"></script>
+    <script>
+        if (!localStorage.getItem("user")) window.location.href = "/signin/signin.html";
+    </script>
+</body>
+
+</html>

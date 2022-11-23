@@ -1,0 +1,222 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Creepster&family=Dancing+Script&family=Quicksand:wght@400&family=Staatliches&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap");
+body {
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #171010;
+}
+
+.navbar-brand {
+    font-family: "Major Mono Display", monospace;
+    font-size: 23px;
+    letter-spacing: 2px;
+    color: #ea1d1d;
+    text-decoration: none;
+}
+
+.nav-link {
+    color: #fff;
+    font-family: "Quicksand", sans-serif;
+    margin: 0px 10px;
+    font-size: 15px;
+}
+
+.content {
+    /* display: flex; */
+    /* position: absolute; */
+    width: 100%;
+    height: 40%;
+    background-color: #171010;
+    /* justify-content: center; */
+    /* align-items: center; */
+    padding: 30px 0;
+}
+
+.review {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    height: 40%;
+    background-color: #423f3e;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0;
+    margin: 0 10px;
+    padding: 20px;
+}
+
+.review-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.review-content {
+    font-family: "Dancing Script", cursive;
+    color: aliceblue;
+    align-items: center;
+    font-size: 2vw;
+}
+
+.author {
+    font-family: "Bebas Neue", cursive;
+    color: #999392;
+    font-size: 1.5vw;
+}
+
+.halloween-decor {
+    width: 2.5%;
+    margin-right: 5px;
+}
+
+.most-popular {
+    width: 100%;
+    /* position: absolute; */
+    background-color: #171010;
+    height: 600px;
+    margin: 0;
+    padding: 10px;
+    /* display: flex;
+    flex-direction: column; */
+}
+
+.title-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+.most-popular-trailer {
+    display: flex;
+    width: 100%;
+    margin: 0;
+    justify-content: center;
+}
+
+.title {
+    font-family: "Quicksand", sans-serif;
+    font-weight: 1000;
+    font-size: 3vw;
+    margin: 50px 0;
+    color: #999392;
+}
+
+.most-popular-content {
+    background-color: rgb(38, 54, 54);
+    border-radius: 20px;
+    width: 100%;
+    height: 8vh;
+}
+
+.most-popular-description {
+    display: flex;
+    margin: 0;
+    padding: 10px 12%;
+}
+
+.most-popular-poster {
+    width: 30%;
+    height: auto;
+    margin-right: 20px;
+}
+
+.most-popular-description-details {
+    width: 70%;
+    background-color: #171010;
+    align-items: center;
+    justify-content: center;
+    /* padding: 185px 40px; */
+}
+
+.most-popular-content {
+    height: 100%;
+    padding: 7% 5%;
+    font-size: 1.6vw;
+    background-color: rgb(92, 59, 59);
+    color: #fff;
+    font-family: "Quicksand", sans-serif;
+}
+
+.movie-selection-container {
+    width: 100%;
+    height: auto;
+    background-color: #171010;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 40px;
+}
+
+.movie-selection-content {
+    display: flex;
+    width: 45%;
+    height: 50vw;
+    background-color: #291a1a;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.movie-selection-poster {
+    width: 50%;
+    height: auto;
+    /* margin-top: 30px; */
+    border-radius: 6%;
+}
+
+.movie-selection-details-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.movie-selection-details {
+    display: flexbox;
+    height: 17.5vw;
+    /* padding: 3% 5% ; */
+    font-size: 1.2vw;
+    /* background-color: rgb(92, 59, 59); */
+    color: #fff;
+    font-family: "Quicksand", sans-serif;
+    background-size: cover;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.play-button {
+    width: 100%;
+    border-radius: 10px;
+    /* justify-content: center;
+    align-items: center; */
+    text-align: center;
+    text-decoration: none;
+    height: auto;
+    font-size: 1.7vw;
+    font-family: "Quicksand", sans-serif;
+    padding: 4px 0;
+    background-color: #423f3e;
+    color: #fff;
+}
+
+.play-button:hover {
+    background-color: rgb(58, 19, 19);
+}
+
+.side-icon {
+    margin: 0 10px;
+}
+
+.thumbnail-yt {
+    width: 100%;
+}
+.movie-selection {
+    width: 85%;
+    margin: 0 auto;
+}
+.navbar-nav {
+    width: 100%;
+    justify-content: flex-end;
+    align-items: center;
+}
